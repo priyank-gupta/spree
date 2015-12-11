@@ -1,3 +1,9 @@
+# No longer maintained
+
+[![Join the chat at https://gitter.im/vinsol/spree-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vinsol/spree-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+This project is [no longer maintained by Spree Commerce](https://spreecommerce.com/blog/future-of-spree-oss). We recommend using [Solidus](https://github.com/solidusio/solidus), which is a fork of the Spree codebase.
+
 **THIS README IS FOR THE MASTER BRANCH OF SPREE AND REFLECTS THE WORK CURRENTLY
 EXISTING ON THE MASTER BRANCH. IF YOU ARE WISHING TO USE A NON-MASTER BRANCH OF
 SPREE, PLEASE CONSULT THAT BRANCH'S README AND NOT THIS ONE.**
@@ -54,6 +60,10 @@ spree install my_store
 This will add the Spree gem to your Gemfile, create initializers, copy migrations
 and optionally generate sample products and orders.
 
+If you get an "sh: identify: command not found" error then you can try installing imagemagick.
+```shell
+brew install imagemagick
+```
 If you get an "Unable to resolve dependencies" error when installing the Spree gem
 then you can try installing just the spree_cmd gem which should avoid any circular
 dependency issues.
@@ -143,27 +153,27 @@ within the context of Rails application. You can easily create a sandbox
 application inside of your cloned source directory for testing purposes.
 
 
-1. Clone the Git repo
+Clone the Git repo
 
 ```shell
 git clone git://github.com/spree/spree.git
 cd spree
 ```
 
-2. Install the gem dependencies
+Install the gem dependencies
 
 ```shell
 bundle install
 ```
 
-3. Create a sandbox Rails application for testing purposes (and automatically
+Create a sandbox Rails application for testing purposes (and automatically
 perform all necessary database setup)
 
 ```shell
 bundle exec rake sandbox
 ```
 
-4. Start the server
+Start the server
 
 ```shell
 cd sandbox
