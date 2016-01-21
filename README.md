@@ -32,11 +32,11 @@ interested in. For example, you could use just the barebones spree\_core gem
 and perhaps combine it with your own custom backend admin instead of using
 spree_api.
 
-[![Circle CI](https://circleci.com/gh/spree/spree.svg?style=svg)](https://circleci.com/gh/spree/spree)
-[![Code Climate](https://codeclimate.com/github/spree/spree.png)](https://codeclimate.com/github/spree/spree)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/spree/spree)
-[![Issue Stats](http://issuestats.com/github/spree/spree/badge/pr)](http://issuestats.com/github/spree/spree)
-[![Issue Stats](http://issuestats.com/github/spree/spree/badge/issue)](http://issuestats.com/github/spree/spree)
+[![Circle CI](https://circleci.com/gh/vinsol/spree-next.svg?style=svg)](https://circleci.com/gh/vinsol/spree-next)
+[![Code Climate](https://codeclimate.com/github/vinsol/spree-next.png)](https://codeclimate.com/github/vinsol/spree-next)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vinsol/spree-next)
+<!-- [![Issue Stats](http://issuestats.com/github/vinsol/spree-next/badge/pr)](http://issuestats.com/github/vinsol/spree-next) -->
+<!-- [![Issue Stats](http://issuestats.com/github/vinsol/spree-next/badge/issue)](http://issuestats.com/github/vinsol/spree-next) -->
 
 Installation
 ------------
